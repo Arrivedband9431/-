@@ -2,7 +2,7 @@
 def encrypt_or_decrypt():
     while True:
         try:
-            option_chooser = int(input("do you want to encrypt or decrypt?\nenter 1-for encrypt or 2-for decrypt 3-for flip encryption:\n "))
+            option_chooser = int(input("do you want to encrypt or decrypt?\nenter 1-for encrypt or 2-for decrypt 3-for flip encryption 4-for flip decryption:\n "))
             assert option_chooser == 1 or option_chooser == 2 or option_chooser == 3 or option_chooser ==4, "Enter 1 2 3 or 4 please."
             return option_chooser
 
