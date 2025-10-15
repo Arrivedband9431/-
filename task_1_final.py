@@ -7,10 +7,11 @@ Description:
 Date: 2025-10-09
 
 '''
+
+
 import sys
-
-
-
+#----------------------------------------------
+# value sending argv
 
 #for getting the massage
 if len(sys.argv) > 1:
@@ -25,25 +26,53 @@ if len(sys.argv) > 2:
     option_chosen = int(sys.argv[2])
 else:
     option_chosen = 1
+#----------------------------------------------
 
 
 
+#--
+'''
+for nir how to run:
+
+
+
+step 1: open cmd
+
+step 2: mount the location of file in this case its the line below without the .
+cd C:\.Users\Your_Computers_name\PycharmProjects\Cyber
+
+step 3:  example of encrypting hello world
+python task_1_final.py "Hello world" 1
+
+the numbers represent what action you are doing so:
+1 - encrypt
+2 - decrypt
+3 - flip-encrypt
+4 - flip-decrypt
+5 - auto tester 
+'''
+
+#--
 
 
 
 
 #-----------------------------------------------------------
 # ----- manual input
-def encrypt_or_decrypt():
-    while True:
-        try:
-            option_chooser = int(input("do you want to encrypt or decrypt?\nenter 1-for encrypt or 2-for decrypt 3-for flip encryption:\n "))
-            assert option_chooser == 1 or option_chooser == 2 or option_chooser == 3 or option_chooser ==4, "Enter 1 2 3 or 4 please."
-            return option_chooser
 
 
-        except ValueError:
-            print("\n Invalid input enter a number")
+# def encrypt_or_decrypt():
+#     while True:
+#         try:
+#             option_chooser = int(input("do you want to encrypt or decrypt?\nenter 1-for encrypt or 2-for decrypt 3-for flip encryption:\n "))
+#             assert option_chooser == 1 or option_chooser == 2 or option_chooser == 3 or option_chooser ==4, "Enter 1 2 3 or 4 please."
+#             return option_chooser
+#
+#
+#         except ValueError:
+#             print("\n Invalid input enter a number")
+
+
 #option_chosen = encrypt_or_decrypt()
 
 #---------
