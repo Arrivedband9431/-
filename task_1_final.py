@@ -66,7 +66,7 @@ decrypt_dictionary = {
     98: " ", 99: ",", 100: ".", 101: "’", 102: "!",103: "-"
 }
 
-tester_and_checker_mode = False
+
 
 
 #-------------------------------------------
@@ -195,15 +195,15 @@ def tester_if_working(): # check if code is working and if code is running ok
 
 
 
-if tester_and_checker_mode:
+
+#users_massage =input("enter your massage Encryption:\n       ")
+if option_chosen == 1:
+    encrypt(users_massage)
+elif option_chosen == 2:
+    decrypt(users_massage)
+elif option_chosen == 3:
+    flip_encryption(users_massage)
+elif option_chosen == 4:
+    decrypt_with_flip(users_massage)
+elif option_chosen == 5:
     tester_if_working()
-else:
-    #users_massage =input("enter your massage Encryption:\n       ")
-    if option_chosen == 1:
-        encrypt(users_massage)
-    elif option_chosen == 2:
-        decrypt(users_massage)
-    elif option_chosen == 3:
-        flip_encryption(users_massage)
-    elif option_chosen == 4:
-        decrypt_with_flip(users_massage)
