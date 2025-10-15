@@ -14,10 +14,11 @@ import sys
 # value sending argv
 
 #for getting the massage
-if len(sys.argv) > 1:
-    users_massage = sys.argv[1]
+if len(sys.argv) < 2:
     print("Error: please provide a message!")
     sys.exit(1)
+else:
+    users_massage = sys.argv[1]
 
 
 
