@@ -27,12 +27,11 @@ LOG_FILE = "my_encryption.log"
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
-    format="%(pastime)s - %(levelness)s - %(message)s",
+    format="%(asctime)s - %(levelname)s - %(message)s",
     filemode="a"
 )
 logger = logging.getLogger()
-
-
+logger.setLevel(logging.DEBUG)
 # '''
 # for nir how to run:
 #
@@ -89,12 +88,13 @@ else:
 
 
 def Encrypt(message):
-    # list1 = []
+
     message_in_numbers = ""
     for i in message:
 
-        # list1.append(encryption_dictionary[i])
+
         message_in_numbers+=str(encryption_dictionary[i])+","
+    logger.info("successful message encrypted message: " + message_in_numbers)
     return message_in_numbers
 
 
@@ -107,15 +107,12 @@ def Decrypt(message):
         else:
             message_in_letters+= decrypt_dictionary[int(note)]
             note = ""
+    logger.info("successful message decrypt message: " + message_in_letters)
     return message_in_letters
 
 
 
 
-# if option_chosen ==1:
-#     print(encrypt(users_massage))
-# elif option_chosen ==2:
-#     print(decrypt(users_massage))
 
 def main():
     assert Encrypt("this is a test") == "91,19,30,90,98,30,90,98,12,98,91,16,90,91,", "Encryption Failed"
@@ -129,7 +126,8 @@ def main():
     elif option_chosen == 2:
         print(Decrypt(users_massage))
     else:
-        logger.error("You are ")
+        print()
+        logger.error("That is not an option!")
 
 
 if __name__ == "__main__":
