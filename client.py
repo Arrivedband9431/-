@@ -1,4 +1,4 @@
-'''
+"""
 Author: yali sommer
 Program name: client
 Task Given: create a server and a client that can communicate with the server
@@ -10,7 +10,10 @@ Date: 2025-10-09
 
 more info -
 ms - stands for "my socket"
-'''
+
+longest line allowed is-
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+"""
 
 
 import socket
@@ -20,7 +23,7 @@ while True:
     ms = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         ms.connect(('127.0.0.1', 1730))
-        users_input = input("Commands that are allowed, TIME , NAME , RAND , EXIT,: \n")
+        users_input = input("Commands are allowed ,TIME,NAME,RAND,EXIT,: \n")
         users_input = users_input[:4]
         if users_input == "EXIT":
             break
@@ -31,4 +34,3 @@ while True:
         print('received socket error ' + str(err))
     finally:
         ms.close()
-
