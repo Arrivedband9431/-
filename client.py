@@ -1,16 +1,34 @@
+'''
+Author: yali sommer
+Program name: client
+Task Given: create a server and a client that can communicate with the server
+            and get a response from the server
+Description:
+    this is the client side of the code
+    commands are  TIME , NAME , RAND , EXIT
+Date: 2025-10-09
+
+more info -
+ms - stands for "my socket"
+'''
+
+
 import socket
 
-MAX_PACKET = 1024
-
-my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-try:
-    my_socket.connect(('127.0.0.1', 1729))
-    # my_socket.connect(('172.16.7.73', 2000))
-    my_socket.send("Hello World!".encode())
-    response = my_socket.recv(MAX_PACKET).decode()
-    print(response)
-except socket.error as err:
-    print('received socket error ' + str(err))
-finally:
-    my_socket.close()
+max_packet = 1024
+while True:
+    ms = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        ms.connect(('127.0.0.1', 1730))
+        users_input = input("Commands that are allowed, TIME , NAME , RAND , EXIT,: \n")
+        users_input = users_input[:4]
+        if users_input == "EXIT":
+            break
+        ms.send(users_input.encode())
+        response = ms.recv(max_packet).decode()
+        print(response)
+    except socket.error as err:
+        print('received socket error ' + str(err))
+    finally:
+        ms.close()
 
