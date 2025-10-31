@@ -25,11 +25,12 @@ while True:
         ms.connect(('127.0.0.1', 1730))
         users_input = input("Commands are allowed ,TIME,NAME,RAND,EXIT,: \n")
         users_input = users_input[:4]
-        if users_input == "EXIT":
-            break
+
         ms.send(users_input.encode())
         response = ms.recv(max_packet).decode()
         print(response)
+        if users_input == "EXIT" or users_input == "exit":
+            break
     except socket.error as err:
         print('received socket error ' + str(err))
     finally:

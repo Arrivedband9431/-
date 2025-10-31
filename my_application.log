@@ -31,3 +31,50 @@
 2025-10-31 12:35:50,894 - WARNING - INPUT ERROR WRONG INPUT ENTERED
 2025-10-31 12:35:56,327 - INFO - TIME sent successfully
 2025-10-31 12:57:09,816 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:08:38,939 - INFO - TIME sent successfully
+2025-10-31 13:08:38,940 - INFO - closing client socket
+2025-10-31 13:08:44,807 - INFO - NAME sent successfully
+2025-10-31 13:08:44,808 - INFO - closing client socket
+2025-10-31 13:08:50,569 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:08:50,569 - INFO - closing client socket
+2025-10-31 13:10:11,133 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:10:11,133 - INFO - closing client socket
+2025-10-31 13:10:18,025 - INFO - exited program successfully
+2025-10-31 13:10:18,025 - WARNING - closed server from client command
+2025-10-31 13:10:18,025 - INFO - closing client socket
+2025-10-31 13:10:40,140 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:10:40,141 - INFO - closing client socket
+2025-10-31 13:11:09,043 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:11:09,043 - INFO - closing client socket
+2025-10-31 13:11:26,633 - INFO - exited program successfully
+2025-10-31 13:11:26,634 - WARNING - closed server from client command
+2025-10-31 13:11:26,634 - INFO - closing client socket
+2025-10-31 13:11:51,260 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:11:51,261 - INFO - closing client socket
+2025-10-31 13:12:02,332 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:12:02,333 - INFO - closing client socket
+2025-10-31 13:12:09,113 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:12:09,113 - INFO - closing client socket
+2025-10-31 13:12:30,184 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:12:30,185 - INFO - closing client socket
+2025-10-31 13:13:06,103 - INFO - TIME sent successfully
+2025-10-31 13:13:06,104 - INFO - closing client socket
+2025-10-31 13:13:10,794 - INFO - RAND sent successfully
+2025-10-31 13:13:10,795 - INFO - closing client socket
+2025-10-31 13:13:56,669 - INFO - exited program successfully
+2025-10-31 13:13:56,669 - WARNING - closed server from client command
+2025-10-31 13:13:56,670 - INFO - closing client socket
+2025-10-31 13:14:04,797 - INFO - exited program successfully
+2025-10-31 13:14:04,797 - WARNING - closed server from client command
+2025-10-31 13:14:04,797 - INFO - closing client socket
+2025-10-31 13:14:29,340 - INFO - closing client socket
+2025-10-31 13:14:31,403 - INFO - exited program successfully
+2025-10-31 13:14:31,403 - WARNING - closed server from client command
+2025-10-31 13:14:31,403 - INFO - closing client socket
+2025-10-31 13:14:45,603 - INFO - TIME sent successfully
+2025-10-31 13:14:45,604 - INFO - closing client socket
+2025-10-31 13:14:51,853 - WARNING - INPUT ERROR WRONG INPUT ENTERED
+2025-10-31 13:14:51,853 - INFO - closing client socket
+2025-10-31 13:14:54,568 - INFO - exited program successfully
+2025-10-31 13:14:54,568 - WARNING - closed server from client command
+2025-10-31 13:14:54,568 - INFO - closing client socket

@@ -63,7 +63,11 @@ def main():
                         logging.warning(f'closed server from client command')
                         break
                     case _:
-                        cs.send("NOT A COMMAND WRONG INPUT!! ".encode())
+                        cs_length = len(str(request))
+                        if cs_length < 4:
+                            amount_of_zeros_needed = "0" * (4 - cs_length)
+                            request += amount_of_zeros_needed
+                        cs.send(f"{request} is NOT A COMMAND WRONG INPUT!! ".encode())
                         logging.warning(f'INPUT ERROR WRONG INPUT ENTERED')
                 cs.send(request.encode())
             except socket.error as err:
