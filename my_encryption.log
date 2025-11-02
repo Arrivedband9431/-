@@ -58,3 +58,37 @@
 2025-10-18 22:24:29,884 - INFO - successful flip-encrypt message: 91,90,16,91,98,12,98,90,30,98,90,30,19,91,
 2025-10-18 22:24:29,884 - INFO - successful message decrypt message: this is a test
 2025-10-18 22:24:29,884 - INFO - successful message decrypt message: tset a si siht
+2025-10-31 15:55:37,434 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:37,435 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:37,435 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:37,435 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-10-31 15:55:38,871 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:38,871 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:38,871 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:38,871 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-10-31 15:55:42,974 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:42,974 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:42,974 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:42,974 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-10-31 15:55:46,311 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:46,311 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:46,311 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:46,311 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-10-31 15:55:48,396 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:48,396 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:48,396 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:48,396 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-10-31 15:55:49,852 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:49,852 - INFO - successful message decrypt message: this is a test
+2025-10-31 15:55:49,852 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-10-31 15:55:49,852 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-11-01 19:06:29,329 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-11-01 19:06:29,329 - INFO - successful message decrypt message: this is a test
+2025-11-01 19:06:29,329 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-11-01 19:06:29,329 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-11-01 20:01:42,453 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-11-01 20:01:42,453 - INFO - successful message decrypt message: this is a test
+2025-11-01 20:01:42,453 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,
+2025-11-01 20:01:42,453 - INFO - successful flip-encrypt message: ,91,90,16,91,98,12,98,90,30,98,90,30,19,91,
+2025-11-01 20:02:01,968 - ERROR - That is not an option!
+2025-11-01 20:03:36,126 - INFO - successful message encrypted message: 91,19,30,90,98,30,90,98,12,98,91,16,90,91,98,36,17,98,91,19,16,98,16,35,14,39,96,37,91,30,36,35,
